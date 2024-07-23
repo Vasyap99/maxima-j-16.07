@@ -36,10 +36,10 @@ public class Main{
         ll.addAll(List.of("City21","City22","City23","City24","City25"));
         System.out.println(ll);
 
-        for(int j=0;j<3;j++) ll.removeFirst();
+        for(int j=0;j<3;j++) System.out.printf("removed from begin:%s\n",ll.removeFirst());
         System.out.println(ll);
 
-        for(int j=0;j<4;j++) ll.removeLast();
+        for(int j=0;j<4;j++) System.out.printf("removed from end:%s\n",ll.removeLast());
         System.out.println(ll);
     }
 }
